@@ -1,6 +1,4 @@
-﻿#pragma warning disable CS0649
-
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
