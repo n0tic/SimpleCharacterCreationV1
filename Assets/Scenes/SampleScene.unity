@@ -3392,6 +3392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b02060cc18bc4674f83550797a0ca69f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ReferenceSaver: Dont mind this!
   charnameField: {fileID: 1472657947}
   skinsHolder: {fileID: 1133878969}
   headsHolder: {fileID: 1357716113}

@@ -7,6 +7,8 @@ using TMPro;
 
 public class CharacterCreation : MonoBehaviour
 {
+    [SerializeField] string ReferenceSaver; //This does absolutely nothing. This is only to trick GIT.
+
     [Header("UI References")]
     [SerializeField] TMP_InputField charnameField;
     [SerializeField] Image skinsHolder;
