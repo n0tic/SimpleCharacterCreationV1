@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CharacterCreation : MonoBehaviour
 {
@@ -234,5 +235,18 @@ public class CharacterCreation : MonoBehaviour
         }
         else
             Debug.LogError("You need to have a name and it needs to be minimum 3 letters. Ex \"Kim\"");
+    }
+
+    public void ClearData()
+    {
+        if (GameManager.instance.playerData != null)
+            GameManager.instance.playerData = null;
+
+#if UNITY_EDITOR && UNITY_STANDALONE
+        if(SaveLoad.DoesPlayerDataExist()) SaveLoad.RemoveSavedData();
+#elif UNITY_WEBGL
+        if (SaveLoad.DoesPlayerPrefsExist()) SaveLoad.RemoveSavedPlayerPrefs();
+#endif
+        SceneManager.LoadScene(0);
     }
 }
