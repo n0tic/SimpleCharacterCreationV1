@@ -15,10 +15,7 @@ public static class SaveLoad
         PlayerPrefs.Save();
     }
 
-    public static void RemoveSavedPlayerPrefs()
-    {
-        PlayerPrefs.DeleteAll();
-    }
+    public static void RemoveSavedPlayerPrefs() => PlayerPrefs.DeleteAll();
 
     public static bool DoesPlayerPrefsExist() => PlayerPrefs.HasKey("CharacterName");
 
