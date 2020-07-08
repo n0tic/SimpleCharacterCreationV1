@@ -3,6 +3,8 @@ A very simple pixelart type character creation with presets. Created to show how
 
 WebGL working save-system + Binary Save File for standalone builds.
 
-![](http://bytevaultstudio.se/ShareX/Unity_A29DKr7Hj7.png)
+![Editor Playmode Screenshot](http://bytevaultstudio.se/ShareX/Unity_A29DKr7Hj7.png "Editor Playmode Screenshot")
 
-Unity (2019.3.3f1)
+Editor Version: Unity 2019.3.3f1   
+Art design is from: [opengameart.org](https://opengameart.org/content/customizable-character-pack)   
+Demo/WebGL: [ByteVault Studio](http://bytevaultstudio.se/Downloads/view.php?visit=http://bytevaultstudio.se/projects/unity/CharacterCreationV1/?github)
