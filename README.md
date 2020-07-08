@@ -3,6 +3,6 @@ A very simple pixelart type character creation with presets. Created to show how
 
 WebGL working save-system + Binary Save File for standalone builds.
 
-* Remove Assets/Plugins folder.
+![](http://bytevaultstudio.se/ShareX/Unity_A29DKr7Hj7.png)
 
 Unity (2019.3.3f1)
