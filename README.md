@@ -1,5 +1,5 @@
 # SimpleCharacterCreationV1 Unity 2D
-A very simple pixelart type character creation with presets. Created to show how simple it would be to make a customizable preset based system. This was completed in about 20 minutes and the most time-consuming thing was actually converting the images from gimp to photoshop files and then modify the art to what I needed(presets).
+A very simple pixelart type character creation with presets. Created to show how simple it would be to make a customizable preset based system. This was completed in about 40 minutes in total and the most time-consuming thing was actually converting the images from gimp to photoshop files and then modify the art to what I needed(presets).
 
 WebGL working save-system + Binary Save File for standalone builds.
 
