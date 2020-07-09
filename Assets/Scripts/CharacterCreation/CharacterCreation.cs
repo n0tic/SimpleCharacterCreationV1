@@ -88,7 +88,7 @@ public class CharacterCreation : MonoBehaviour
             skinsHolder.color = new Color(1, 1, 1, 1);
 
             if (skinIndex == 0)
-                skinIndex = skins.Count - 1;
+                skinIndex = skins.Count;
 
             if (skinIndex > 0)
             {
@@ -119,7 +119,7 @@ public class CharacterCreation : MonoBehaviour
         else
         {
             if (headsIndex == 0)
-                headsIndex = heads.Count - 1;
+                headsIndex = heads.Count;
 
             if (headsIndex > 0)
             {
@@ -150,13 +150,14 @@ public class CharacterCreation : MonoBehaviour
         else
         {
             if (topsIndex == 0)
-                topsIndex = tops.Count - 1;
+                topsIndex = tops.Count;
 
             if (topsIndex > 0)
             {
                 topsIndex--;
                 topsHolder.sprite = tops[topsIndex];
             }
+            Debug.Log(topsIndex.ToString());
         }
 
         if (topsHolder.sprite == null)
@@ -181,7 +182,7 @@ public class CharacterCreation : MonoBehaviour
         else
         {
             if (pantsIndex == 0)
-                pantsIndex = pants.Count - 1;
+                pantsIndex = pants.Count;
 
             if (pantsIndex > 0)
             {
@@ -212,7 +213,7 @@ public class CharacterCreation : MonoBehaviour
         else
         {
             if (shoesIndex == 0)
-                shoesIndex = shoes.Count - 1;
+                shoesIndex = shoes.Count;
 
             if (shoesIndex > 0)
             {
