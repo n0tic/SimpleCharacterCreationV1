@@ -74,9 +74,9 @@
 *.3dm binary
 
 # Build
-*.dll filter=lfs diff=lfs merge=lfs -text
-*.pdb filter=lfs diff=lfs merge=lfs -text
-*.mdb filter=lfs diff=lfs merge=lfs -text
+*.dll binary
+*.pdb binary
+*.mdb binary
 
 # Packaging
 *.zip binary
